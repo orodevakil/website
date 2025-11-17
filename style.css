@@ -1,10 +1,37 @@
 img {
-    width: 400px;
+    width: 500px;
 }
 body {
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
-    font-family: 'Arial';
-    background: lightblue;
-    color:rgb(255, 0, 67);
+    font-family: 'Comic Sans';
+    background: greenyellow;
+    color:rgb(41, 67, 67);
+}
+
+.top-nav {
+    width: 100%;
+    background-color: rgb(233, 157, 233);
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    gap: 80px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-nav a {
+    color: green;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.top-nav a:hover {
+    background-color: rgb(203, 101, 203);
+    color: rgb(15, 95, 15);
+    text-decoration: underline;
 }
