@@ -1,0 +1,10 @@
+img {
+    width: 500px;
+}
+body {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Comic Sans';
+    background: orange;
+    color:rgb(18, 212, 102);
+}
